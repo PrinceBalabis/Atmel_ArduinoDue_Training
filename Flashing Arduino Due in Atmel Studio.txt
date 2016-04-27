@@ -1,0 +1,14 @@
+Configure an 'External Tool' in Atmel Studio (Tools -> External Tools...).
+
+Configure a debug build command
+Title: BossacArduinoDue(Debug)
+Command: C:\Users\Prince\Documents\GitHub\Atmel_ArduinoDue_Training\BOSSAC\BossacArduinoDue.bat
+Arguments: "C:\Users\Prince\AppData\Local\Arduino15\packages\arduino\tools\bossac\1.6.1-arduino\bossac.exe" "$(ProjectDir)\Debug\$(ProjectFileName).bin"
+Checkbox "Use Output Window".
+Press Apply
+Press OK
+
+To flash your code go to "Tools -> BossacArduinoDue(Debug)"
+
+
+
