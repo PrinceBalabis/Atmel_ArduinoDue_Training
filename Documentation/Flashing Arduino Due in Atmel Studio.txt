@@ -8,7 +8,4 @@ Checkbox "Use Output Window".
 Press Apply
 Press OK
 
-To flash your code go to "Tools -> BossacArduinoDue(Debug)"
-
-
-
+To flash your current built code to the Due go to "Tools -> BossacArduinoDue(Debug)"
